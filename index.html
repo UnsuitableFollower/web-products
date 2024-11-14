@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products Complete</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    
+    <!-- Products Section -->
+    <section class="products">
+      <div class="title">
+        <h2>Our Products</h2>
+        <div class="title-underline"></div>
+      </div>
+    </section>
+
+  <!-- Search and Filter Section (moved directly under the title) -->
+    <div class="filter-section">
+      <input type="text" id="search-input" placeholder="Search products..." class="search-input" />
+      <div class="filter-buttons">
+        <button id="filter-all" class="filter-btn">All</button>
+        <button id="filter-ikea" class="filter-btn">Ikea</button>
+        <button id="filter-marcos" class="filter-btn">Marcos</button>
+      </div>
+    </div>
+
+    <div class="products-center"></div>
+
+  <!-- Dark mode icon toggle -->
+  <i id="dark-mode-toggle" class="fas fa-moon"></i>
+  </section>
+  <script src="./darkMode.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
